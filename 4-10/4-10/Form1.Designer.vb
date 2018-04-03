@@ -58,9 +58,9 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(38, 118)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(47, 12)
+        Me.Label3.Size = New System.Drawing.Size(41, 12)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "입력값3"
+        Me.Label3.Text = "결과값"
         '
         'TextBox1
         '
@@ -80,6 +80,7 @@ Partial Class Form1
         '
         Me.TextBox3.Location = New System.Drawing.Point(108, 115)
         Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.ReadOnly = True
         Me.TextBox3.Size = New System.Drawing.Size(133, 21)
         Me.TextBox3.TabIndex = 5
         '
@@ -145,7 +146,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "사칙연산 계산기"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
