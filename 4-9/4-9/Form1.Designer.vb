@@ -27,10 +27,10 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(30, 26)
+        Me.TextBox1.Location = New System.Drawing.Point(41, 37)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(225, 203)
+        Me.TextBox1.Size = New System.Drawing.Size(202, 193)
         Me.TextBox1.TabIndex = 0
         '
         'Form1

@@ -22,29 +22,9 @@ Partial Class Form1
     '코드 편집기에서는 수정하지 마세요.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.SuspendLayout()
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(30, 26)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(225, 203)
-        Me.TextBox1.TabIndex = 0
-        '
-        'Form1
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 12.0!)
+        components = New System.ComponentModel.Container()
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(292, 273)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Name = "Form1"
         Me.Text = "Form1"
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
-
     End Sub
 
-    Friend WithEvents TextBox1 As TextBox
 End Class
