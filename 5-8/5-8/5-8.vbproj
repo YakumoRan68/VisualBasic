@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9E6A1E30-A4A0-45FC-BEBB-A9D94A4A48BD}</ProjectGuid>
+    <ProjectGuid>{B1378042-256A-43C2-B595-E4EE83BA5849}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>_5_7.My.MyApplication</StartupObject>
-    <RootNamespace>_5_7</RootNamespace>
-    <AssemblyName>5-7</AssemblyName>
+    <StartupObject>_5_8.My.MyApplication</StartupObject>
+    <RootNamespace>_5_8</RootNamespace>
+    <AssemblyName>5-8</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>5-7.xml</DocumentationFile>
+    <DocumentationFile>5-8.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>5-7.xml</DocumentationFile>
+    <DocumentationFile>5-8.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
