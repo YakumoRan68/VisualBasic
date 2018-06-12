@@ -29,15 +29,15 @@ Partial Class Form1
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.OvalShape1 = New Microsoft.VisualBasic.PowerPacks.OvalShape()
-        Me.GroupBox1.SuspendLayout()
-        Me.SuspendLayout()
+        Me.GroupBox1.SuspendLayout
+        Me.SuspendLayout
         '
         'Timer1
         '
         '
         'Label1
         '
-        Me.Label1.AutoSize = True
+        Me.Label1.AutoSize = true
         Me.Label1.Location = New System.Drawing.Point(12, 26)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(57, 12)
@@ -58,7 +58,7 @@ Partial Class Form1
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(256, 196)
         Me.GroupBox1.TabIndex = 2
-        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.TabStop = false
         Me.GroupBox1.Text = "도형 모양 변경"
         '
         'ShapeContainer1
@@ -69,7 +69,7 @@ Partial Class Form1
         Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.OvalShape1})
         Me.ShapeContainer1.Size = New System.Drawing.Size(250, 176)
         Me.ShapeContainer1.TabIndex = 0
-        Me.ShapeContainer1.TabStop = False
+        Me.ShapeContainer1.TabStop = false
         '
         'OvalShape1
         '
@@ -79,7 +79,7 @@ Partial Class Form1
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 12.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7!, 12!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(293, 265)
         Me.Controls.Add(Me.GroupBox1)
@@ -87,11 +87,11 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
         Me.Text = "초 단위로 도형 모양 변경하기"
-        Me.GroupBox1.ResumeLayout(False)
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+        Me.GroupBox1.ResumeLayout(false)
+        Me.ResumeLayout(false)
+        Me.PerformLayout
 
-    End Sub
+End Sub
 
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Label1 As Label

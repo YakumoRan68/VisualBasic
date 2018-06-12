@@ -9,3 +9,4 @@
         PictureBox1.Width = WidthValue
     End Sub
 End Class
+

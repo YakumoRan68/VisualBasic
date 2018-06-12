@@ -25,8 +25,8 @@ Partial Class Form1
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.HScrollBar1 = New System.Windows.Forms.HScrollBar()
         Me.VScrollBar1 = New System.Windows.Forms.VScrollBar()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SuspendLayout()
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).BeginInit
+        Me.SuspendLayout
         '
         'PictureBox1
         '
@@ -37,7 +37,7 @@ Partial Class Form1
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(300, 300)
         Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.PictureBox1.TabStop = false
         '
         'HScrollBar1
         '
@@ -61,7 +61,7 @@ Partial Class Form1
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 12.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7!, 12!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(357, 364)
         Me.Controls.Add(Me.VScrollBar1)
@@ -69,10 +69,10 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Form1"
         Me.Text = "스크롤바로 이미지 크기 조절"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.ResumeLayout(False)
+        CType(Me.PictureBox1,System.ComponentModel.ISupportInitialize).EndInit
+        Me.ResumeLayout(false)
 
-    End Sub
+End Sub
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents HScrollBar1 As HScrollBar
