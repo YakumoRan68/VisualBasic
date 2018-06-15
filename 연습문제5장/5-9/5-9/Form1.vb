@@ -4,7 +4,7 @@
         height = TextBox1.Text
         weight = TextBox2.Text
         Aweight = (height - 100) * 0.9
-        BMI = weight / Aweight * 100
+        BMI = weight/ Aweight * 100
 
         TextBox3.Text = "표준체중은 " & Aweight & "이고 비만도는 " & BMI & "입니다."
     End Sub
